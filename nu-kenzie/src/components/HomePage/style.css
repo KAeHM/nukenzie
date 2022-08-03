@@ -1,0 +1,82 @@
+.homePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homePageContent {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 90%;
+  justify-content: space-between;
+}
+
+.homePageContent--Text {
+  height: 100%;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 593px;
+  max-height: 593px;
+}
+
+.homePageContent--Text img {
+  height: 19px;
+  width: 122px;
+}
+
+.homePageContent--Text h2 {
+  font-size: 35px;
+  width: 100%;
+  color: white;
+}
+
+.homePageContent--Text span {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.homePageContent--Text button {
+  margin-top: 18px;
+  background-color: #fd377e;
+  border-radius: 8px;
+  border: 2px solid #fd377e;
+  height: 48px;
+  color: white;
+  cursor: pointer;
+}
+
+.homePageContent--img {
+  width: 100%;
+  height: 100%;
+  max-width: 593px;
+  max-height: 593px;
+}
+
+.homePageContent--img .imagemDecorativa {
+  width: 100%;
+  height: 100%;
+  max-width: 593px;
+  max-height: 593px;
+}
+
+@media (max-width: 768px) {
+  .homePageContent {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homePageContent--img {
+    display: none;
+  }
+
+  .homePageContent--Text h2 {
+    font-size: 25px;
+  }
+}

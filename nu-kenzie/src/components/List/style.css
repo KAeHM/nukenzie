@@ -1,0 +1,49 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.divFiltros {
+  display: flex;
+  width: 100%;
+  max-width: 562px;
+  height: 40px;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.divButtons {
+  display: flex;
+  height: 100%;
+  width: 320px;
+  justify-content: space-evenly;
+}
+
+.divButtons button {
+  border: none;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  color: #5b6166;
+  width: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.extratoList p {
+  color: #5b6166;
+  font-size: calc(1rem + 0.3vw);
+  font-weight: 700;
+}
+
+.extratoList img {
+  width: 100%;
+  max-width: 562px;
+}
+
+.divButtons .selectedButton {
+  color: white;
+  background-color: #fd377e;
+}
